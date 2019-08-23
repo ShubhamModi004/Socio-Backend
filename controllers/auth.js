@@ -5,7 +5,7 @@ const { sendEmail } = require("../helpers");
 const dotenv = require("dotenv");
 dotenv.config();
 const expressJwt = require('express-jwt');
-const User = require("../models/user");
+const User = require("../models/User");
 const { validationResult } = require('express-validator');
 
 

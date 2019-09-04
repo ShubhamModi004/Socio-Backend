@@ -1,7 +1,7 @@
 const {
     validationResult
 } = require('express-validator');
-const Post = require("../models/post");
+const Post = require("../models/Post");
 const formidable = require("formidable");
 const fs = require("fs");
 

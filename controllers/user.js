@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const User = require("../models/user");
+const User = require("../models/User");
 const formidable = require('formidable');
 const fs = require('fs');
 
